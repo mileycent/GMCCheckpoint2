@@ -3,7 +3,7 @@ const app = express();
 
 app.set('views engine', 'ejs');
 // app.set('views', 'partials');
-
+console.log("Hello");
 app.use(express.static('public'))
 
 
